@@ -1,6 +1,12 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 20px;
+    color: #F1F1F1;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Agency FB';
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +27,76 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.navbar {
+    min-height: 100px;
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #84C199;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #E6BCBC;
+}
+
+.navbar-inverse {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.navbar-nav > li > a {
+    line-height: 65px;
+}
+
+h1 {
+    font-size: 144px;
+    font-family: Rage;
+}
+
+h2 {
+    font-family: 'Agency FB';
+    font-size: 35px;
+}
+h3{
+    font-family: 'Agency FB';
+    font-size: 28px;
+}
+h4{
+    
+    font-family: 'Agency FB';
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1201px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+        .navbar-collapse.collapse.in {
+            display: block !important;
+        }
+
+    .navbar-header .collapse, .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #E6BCBC;
 }

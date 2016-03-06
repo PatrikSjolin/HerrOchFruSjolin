@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Svara på inbjudan";
+}
+
+<h2>Svar</h2>
+
+<p><b>Här kan ni svara på inbjudan. Kom ihåg att meddela oss:</b> </p>
+<ol>
+    <li>Vem/Vilka svaret gäller och om ni kan komma eller inte. Fyll gärna i både för- och efternamn för alla, så blir det lättare för oss.</li>
+    <p> <b>Om ni kan komma skulle vi också uppskatta att få veta:</b>    </p>
+    <li>Var ni bokat boende</li>
+    <li>Om ni räknar med att vara med och grilla på fredagen</li>
+    <li>Om ni vill åka med i bussen till och från pensionatet på lördagen</li>
+    <li>Om ni har några allergier eller matpreferenser</li>
+    <li>Om ni kommer utan bil och behöver hjälp att ta er runt på Öland</li>
+</ol>
+
+
+@using (Html.BeginForm("Register", "Home"))
+{
+    <label>Förnamn</label>
+    <input name="firstname" type="text" class="form-control" required autofocus placeholder="Ditt förnamn" />
+
+    <label>Efternamn</label>
+    <input name="lastname" type="text" class="form-control" required placeholder="Ditt efternamn" />
+
+
+    <label>Mobil</label>
+    <input name="mobile" type="tel" class="form-control" required placeholder="Ditt mobilnummer" />
+
+    <label>Email</label>
+    <input name="email" type="email" class="form-control" required placeholder="Din e-mail" />
+
+    <label>Anmälan</label>
+    <br />
+    <textarea name="answer" class="form-control" required placeholder="Namn på alla svaret gäller, boende, ankomstdag, allergier m.m."></textarea>
+
+    <input type="submit" class="btn btn-success" value="Anmäl" />
+}

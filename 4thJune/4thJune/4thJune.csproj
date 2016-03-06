@@ -201,15 +201,38 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201603061631079_AddingRegistration.cs" />
+    <Compile Include="Migrations\201603061631079_AddingRegistration.Designer.cs">
+      <DependentUpon>201603061631079_AddingRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201603062138536_Adding-Created.cs" />
+    <Compile Include="Migrations\201603062138536_Adding-Created.Designer.cs">
+      <DependentUpon>201603062138536_Adding-Created.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Registration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\CélineWeb.jpg" />
+    <Content Include="Content\Images\JockeWeb.jpg" />
+    <Content Include="Content\Images\Klockaregarden.jpg" />
+    <Content Include="Content\Images\Pensionat lantgården.jpg" />
+    <Content Include="Content\Images\Persnasgarden.jpg" />
+    <Content Include="Content\Images\persnäs kyrka.jpg" />
+    <Content Include="Content\Images\SkuggkyssSmall.jpg" />
+    <Content Include="Content\Images\SkuggKyssSmall2.png" />
+    <Content Include="Content\Images\SkuggkyssSmall3.jpg" />
+    <Content Include="Content\Images\TelegrindSmall.jpg" />
+    <Content Include="Content\Images\TelegrindSmall2.jpg" />
+    <Content Include="Content\Images\Vattenfallpuss.jpg" />
+    <Content Include="Content\Images\Vattenfallpusssmall.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -221,6 +244,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\Saint-Andrews Queen.ttf" />
+    <Content Include="fonts\LaBelleAurore.ttf" />
     <None Include="Properties\PublishProfiles\herrochfrusjolin.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -268,6 +293,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\PartyInfo.cshtml" />
+    <Content Include="Views\Home\PracticalInfo.cshtml" />
+    <Content Include="Views\Home\Registration.cshtml" />
+    <Content Include="Views\Home\Locations.cshtml" />
+    <Content Include="Views\Home\Telegram.cshtml" />
+    <Content Include="Views\Home\RegistrationSent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -279,6 +310,14 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201603061631079_AddingRegistration.resx">
+      <DependentUpon>201603061631079_AddingRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603062138536_Adding-Created.resx">
+      <DependentUpon>201603062138536_Adding-Created.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
