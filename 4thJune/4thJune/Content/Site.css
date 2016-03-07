@@ -62,12 +62,13 @@ h2 {
     font-family: 'Agency FB';
     font-size: 35px;
 }
-h3{
+
+h3 {
     font-family: 'Agency FB';
     font-size: 28px;
 }
-h4{
-    
+
+h4 {
     font-family: 'Agency FB';
 }
 
@@ -91,8 +92,21 @@ h4{
         display: block !important;
     }
 
+    .navbar {
+        /*min-height: 50px;*/
+    }
+
     .navbar-header {
         float: none;
+    }
+
+    .navbar-nav > li > a {
+        /*line-height: 22px;*/
+    }
+
+    body {
+        /*font-family: 'Agency FB';
+        padding-top: 50px;*/
     }
 }
 
