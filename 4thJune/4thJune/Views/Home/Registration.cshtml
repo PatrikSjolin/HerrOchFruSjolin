@@ -3,7 +3,7 @@
     ViewBag.Title = "Svara på inbjudan";
 }
 
-<h2>Svar</h2>
+<h1>Svar</h1>
 
 <p><b>Här kan ni svara på inbjudan. Kom ihåg att meddela oss:</b> </p>
 <ol>
@@ -15,26 +15,36 @@
     <li>Om ni har några allergier eller matpreferenser</li>
     <li>Om ni kommer utan bil och behöver hjälp att ta er runt på Öland</li>
 </ol>
-
-
+<br />
 @using (Html.BeginForm("Register", "Home"))
 {
-    <label>Förnamn</label>
-    <input name="firstname" type="text" class="form-control" required autofocus placeholder="Ditt förnamn" />
-
-    <label>Efternamn</label>
-    <input name="lastname" type="text" class="form-control" required placeholder="Ditt efternamn" />
-
-
-    <label>Mobil</label>
-    <input name="mobile" type="tel" class="form-control" required placeholder="Ditt mobilnummer" />
-
-    <label>Email</label>
-    <input name="email" type="email" class="form-control" required placeholder="Din e-mail" />
-
-    <label>Svar</label>
-    <br />
-    <textarea name="answer" class="form-control" style="height: 300px" required placeholder="Namn på alla svaret gäller, boende, ankomstdag, allergier m.m."></textarea>
-    <br />
-    <input type="submit" class="btn btn-default" value="Svara" />
+    <div class="row">
+        <div class="col-md-3">
+            <label>Förnamn</label>
+            <input name="firstname" type="text" class="form-control" required autofocus placeholder="Ditt förnamn" />
+        </div>
+        <div class="col-md-3">
+            <label>Efternamn</label>
+            <input name="lastname" type="text" class="form-control" required placeholder="Ditt efternamn" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <label>Mobil</label>
+            <input name="mobile" type="tel" class="form-control" required placeholder="Ditt mobilnummer" />
+        </div>
+        <div class="col-md-3">
+            <label>Email</label>
+            <input name="email" type="email" class="form-control" required placeholder="Din e-mail" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Svar</label>
+            <br />
+            <textarea name="answer" class="form-control" style="height: 300px; max-width: 100%" required placeholder="Namn på alla svaret gäller, boende, ankomstdag, allergier m.m."></textarea>
+            <br />
+            <input type="submit" class="btn btn-default btn-lg" value="Svara" />
+        </div>
+    </div>
 }

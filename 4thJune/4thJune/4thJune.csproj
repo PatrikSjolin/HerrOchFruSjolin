@@ -229,6 +229,7 @@
     <Content Include="Content\Images\SkuggkyssSmall.jpg" />
     <Content Include="Content\Images\SkuggKyssSmall2.png" />
     <Content Include="Content\Images\SkuggkyssSmall3.jpg" />
+    <Content Include="Content\Images\SkuggkyssSmall3dark.jpg" />
     <Content Include="Content\Images\TelegrindSmall.jpg" />
     <Content Include="Content\Images\TelegrindSmall2.jpg" />
     <Content Include="Content\Images\Vattenfallpuss.jpg" />

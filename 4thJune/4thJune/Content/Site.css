@@ -100,3 +100,8 @@ h4{
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #E6BCBC;
 }
+
+.body-links {
+    color: #E6BCBC;
+    text-decoration: underline;
+}
