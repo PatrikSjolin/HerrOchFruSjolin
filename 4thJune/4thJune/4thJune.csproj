@@ -249,6 +249,7 @@
     <Content Include="fonts\Saint-Andrews Queen.ttf" />
     <Content Include="fonts\LaBelleAurore.ttf" />
     <None Include="Properties\PublishProfiles\herrochfrusjolin.pubxml" />
+    <None Include="Properties\PublishProfiles\herrochfrusjolintest.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -301,6 +302,7 @@
     <Content Include="Views\Home\Locations.cshtml" />
     <Content Include="Views\Home\Telegram.cshtml" />
     <Content Include="Views\Home\RegistrationSent.cshtml" />
+    <Content Include="Views\Home\Gifts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

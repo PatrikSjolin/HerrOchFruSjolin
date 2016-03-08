@@ -61,6 +61,11 @@ namespace _4thJune.Controllers
             return View();
         }
 
+        public ActionResult Gifts()
+        {
+            return View();
+        }
+
         public ActionResult RegistrationSent()
         {
             return View();

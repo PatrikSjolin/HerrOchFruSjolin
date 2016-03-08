@@ -6,7 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     font-family: 'Agency FB';
+    overflow-y:scroll;
+}
+
+p{
+    text-shadow: 0 0 2px #606060, 0 0 3px #606060;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -20,6 +26,11 @@
 */
 .dl-horizontal dt {
     white-space: normal;
+}
+
+.btn-default{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -105,6 +116,8 @@ h4 {
     }
 
     body {
+        
+    background-attachment: scroll;
         /*font-family: 'Agency FB';
         padding-top: 50px;*/
     }

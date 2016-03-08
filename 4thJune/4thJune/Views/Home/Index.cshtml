@@ -7,12 +7,9 @@
     <br />
     <br />
     <br />
-        
     <h1>Josefine & Patrik</h1>
-
-       <br />
-    <p>Vad kul att ni har tagit er till vår hemsida. Vi hoppas att det är för att ni vill vara med och fira vår bröllopsdag med oss på Öland. Eftersom vi vet att det är många som har en bit att resa har vi försökt förbereda det praktiska.</p>
-    @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+    <br />
+    <p>Vad kul att ni har tagit er till vår hemsida. Vi hoppas att det är för att ni vill vara med och fira vår bröllopsdag med oss, den 4 juni, på Öland. Eftersom vi vet att det är många som har en bit att resa har vi försökt förbereda det praktiska.</p>
 </div>
 <br />
 <br />
@@ -29,21 +26,20 @@
         <p>
             Meddela här om ni kan komma eller inte senast den 31 mars 2016
         </p>
-        <p>@Html.ActionLink("Svara \u00BB", "Registration", "Home", new { @class = "btn btn-default" })</p>
-        
+        @Html.ActionLink("Svara \u00BB", "Registration", "Home", new { @class = "btn btn-default" })
     </div>
     <div class="col-md-4">
-      
+
         <h2>Boende</h2>
-        <p>Kom ihåg att boka boende på Pensionat Lantgården senast 31 mars, mer information finns här...</p>
-         <p>@Html.ActionLink("Boende \u00BB", "PracticalInfo", "Home", new { @class = "btn btn-default"})</p>
-       
-        
+        <p>Kom ihåg att boka boende på Pensionat Lantgården senast 7 april, mer information finns här...</p>
+        @Html.ActionLink("Det praktiska \u00BB", "PracticalInfo", "Home", new { @class = "btn btn-default" })
+
+
     </div>
     <div class="col-md-4">
         <h2>Värdpar</h2>
         <p>För att anmäla tal, upptåg eller andra skojsigheter hör av er till vårt värdpar</p>
-        <p>@Html.ActionLink("Värdpar \u00BB", "Contact", "Home", new { @class = "btn btn-default" })</p>
-               
+        @Html.ActionLink("Kontakt \u00BB", "Contact", "Home", new { @class = "btn btn-default" })
+
     </div>
 </div>
